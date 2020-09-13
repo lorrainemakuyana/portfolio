@@ -1,0 +1,496 @@
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    line-height: 1.5em;
+}
+
+header {
+    height: 90px;;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: rgb(13,13,69);
+
+}
+
+header h1 {
+    display: inline-block;
+    width: 65%;
+    margin: 30px;
+    letter-spacing: 2px;
+}
+
+header a, header a:visited {
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(13,13,69);
+}
+header a:hover {
+    background-color: rgb(185, 240, 255);
+    border-bottom: 6px solid rgb(13,13,69);
+}
+
+.about-me {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.about-me img {
+    width: 30%;
+    float: left;
+    border-radius: 50%;
+}
+
+.about-me div {
+    position: absolute;
+    width: 60%;
+    margin-left: 360px;
+    margin-top: 10px;
+}
+
+.about-me h2 {
+    font-size: 38px; 
+}
+
+.about-me p {
+    margin-top: 10px;
+}
+
+.about-me div a, .about-me div a:visited {
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+.about-me div a:hover {
+    color: rgb(0, 0, 255);
+}
+
+.skills {
+    clear: both;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.skills .skills-flex-container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.skills-flex-container div {
+    width: 30%;
+}
+
+.skills .skills-flex-container:nth-child(3) img {
+    padding-top: 0px;
+}
+
+.projects-flex-container .project-description img {
+    width: 80%;
+    padding: 20px;
+}
+
+.projects {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.projects-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.project-description {
+    width: 30%;
+    text-align: center;
+    height: 400px;
+}
+
+.project-description .push-link {
+    height: 30px;
+}
+
+.project-description a {
+    padding: 10px 16px;
+    background-color: rgb(0, 106, 215);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-description a:hover {
+    color: inherit;
+    text-decoration: underline;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+}
+
+.education {
+    padding-top: 20px;
+}
+
+.education, .experience, .honors {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.education p {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.experience, .honors {
+    padding-top: 50px;
+}
+
+.experience h3, .experience h4, .experience p {
+    width: 90%;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+.experience h4, .experience p {
+    padding: 0;
+}
+
+.honors ul {
+    padding: 40px 0 0 70px;
+}
+
+.honors ul li {
+    list-style-type: square;
+}
+
+.contact {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contact .fa {
+    font-size: 40px;
+    padding: 20px 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact a:hover {
+    color: rgb(0, 106, 215);
+}
+
+footer {
+    height: 80px;
+    background-color: rgb(13,13,69);
+    text-align: center;
+    padding-top: 20px; ;
+    color: rgb(255, 255, 255);
+}
+
+footer a {
+    color: inherit;
+}
+
+footer a:hover {
+    color: rgb(185, 240, 255);
+}
+
+@media screen and (max-width: 699px) {
+
+    .introduction h2, .introduction p {
+        text-align: center;
+    }
+    
+    header h1 {
+        font-size: 26px;
+        width: 90%;
+        margin: 0;
+        margin-left: 20px;
+        padding: 25px 0px 25px 0px;
+        text-align: center;
+    }
+
+    header a {
+        display: none;
+    }
+
+    .about-me {
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 70px;
+    }
+    
+    .about-me img {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        border-radius: 50%;
+        float: none;
+    }
+    
+    .about-me div {
+        position: static;
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+    
+    .about-me h2 {
+        font-size: 30px; 
+    }
+    
+    .about-me p {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    #about {
+        width: 100%;
+    }
+    
+    .introduction {
+        padding: 0 20px;
+    }
+    .about-me div a, .about-me div a:visited {
+        margin-right: 70px;
+        text-decoration: none;
+        font-family: inherit;
+        font-weight: bold;
+    }
+    .skills {
+        clear: both;
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .skills .skills-flex-container {
+        display: flex;
+        margin-top: 40px;
+        justify-content: space-evenly;
+    }
+
+    .skills-flex-container div img {
+        width: 50%;
+    }
+    
+    .skills-flex-container div {
+        width: 100%;
+    }
+    
+    .projects-flex-container .project-description img {
+        width: 80%;
+        padding: 20px;
+    }
+    
+    .projects {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 60px;
+    }
+    
+    .projects-flex-container {
+        padding: 20px 40px;
+    }
+    
+    .project-description {
+        width: 100%;
+        text-align: center;
+        height: 400px;
+    }
+
+    .education, .experience, .honors {
+        width: 90%;
+    }
+
+    .honors ul {
+        padding: 40px 0 0 40px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1030px) { 
+    header a{
+        display: none;
+    }
+
+    header h1 {
+        font-size: 36px;
+        width: 90%;
+        margin: 0;
+        margin-left: 20px;
+        padding: 25px 0px 25px 0px;
+        text-align: center;
+    }
+
+    header a {
+        display: none;
+    }
+
+    .about-me {
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 70px;
+        text-align: center;
+    }
+    
+    .about-me img {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        border-radius: 50%;
+        float: none;
+    }
+    
+    .about-me div {
+        position: static;
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+    
+    .about-me h2 {
+        font-size: 50px; 
+    }
+    
+    .about-me p {
+        margin-top: 10px;
+        width: 100%;
+        font-size: 28px;
+    }
+
+    #about {
+        width: 100%;
+    }
+    
+    .introduction {
+        padding: 0 20px;
+    }
+
+    .about-me div a, .about-me div a:visited {
+        margin-right: 70px;
+        text-decoration: none;
+        font-family: inherit;
+        font-weight: bold;
+    }
+
+    .skills h2, .projects h2, .education h2, .experience h2, .honors h2 {
+        font-size: 40px;
+    }
+
+    .skills {
+        clear: both;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 40px;
+    }
+    
+    .skills .skills-flex-container {
+        display: flex;
+        margin-top: 40px;
+        justify-content: space-evenly;
+    }
+
+    .skills-flex-container div img {
+        width: 50%;
+    }
+    
+    .skills-flex-container div {
+        width: 100%;
+    }
+    
+    .projects-flex-container .project-description img {
+        width: 60%;
+        padding: 20px;
+    }
+    
+    .projects {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 80px;
+    }
+    
+    .projects-flex-container {
+        padding: 20px 40px;
+    }
+
+    .project-description {
+        width: 100%;
+        text-align: center;
+        height: 600px;
+    }
+    
+    .education, .experience, .honors {
+        width: 90%;
+    }
+
+    .honors ul {
+        padding: 40px 0 0 40px;
+    }
+
+    .education p, .experience p, .honors p, .honors ul {
+        font-size: 28px;
+    }
+
+    .experience h3 {
+        font-size: 32px;
+    }
+
+    .experience h4 {
+        font-size: 30px;
+    }
+
+    .contact h2 {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+
+    .contact .fa {
+        font-size: 70px;
+        margin-bottom: 20px;
+    }
+
+    .project-description h3 {
+        font-size: 32px;
+    }
+
+    .project-description h4 {
+        font-size: 28px;
+    }
+
+    .project-description p {
+        font-size:24px;
+    }
+
+    .project-description a {
+        padding: 22px 34px;
+        font-size: 28px;
+    }
+
+    .project-description {
+        height: 700px;
+    }
+
+    .project-description .push-link {
+        height: 50px;
+    }
+
+    .projects-flex-container {
+        padding-top: 60px;
+    }
+
+    footer {
+        height: 150px;
+        font-size: 30px;
+        padding-top: 50px;
+    }
+}
