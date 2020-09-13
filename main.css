@@ -248,6 +248,9 @@ footer a:hover {
         text-align: center;
         margin: 0;
         padding: 30px;
+        text-decoration: none;
+        font-family: inherit;
+        font-weight: bold;
     }
     
     .about-me h2 {
@@ -266,12 +269,7 @@ footer a:hover {
     .introduction {
         padding: 0 20px;
     }
-    .about-me div a, .about-me div a:visited {
-        margin-right: 70px;
-        text-decoration: none;
-        font-family: inherit;
-        font-weight: bold;
-    }
+
     .skills {
         clear: both;
         width: 90%;
