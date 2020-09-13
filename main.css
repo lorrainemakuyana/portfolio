@@ -243,6 +243,12 @@ footer a:hover {
         margin: 0 auto;
         padding: 50px 0;
     }
+
+    .about-me .introduction p a {
+        text-align: center;
+        margin: 0;
+        padding: 30px;
+    }
     
     .about-me h2 {
         font-size: 30px; 
@@ -366,6 +372,12 @@ footer a:hover {
         margin-top: 10px;
         width: 100%;
         font-size: 28px;
+    }
+
+    .about-me .introduction p a {
+        text-align: center;
+        margin: 0;
+        padding: 30px;
     }
 
     #about {
