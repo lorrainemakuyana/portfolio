@@ -17,6 +17,7 @@
         <a href="#projects">Projects</a>
         <a href="#education">Education</a>
         <a href="#experience">Experience</a>
+        <a href="#contact-form">Contact</a>
     </header>
     <main>
         <section class="about-me">
@@ -150,6 +151,28 @@
                 <li>Jim Ovia Foundation Leadership Scholarship, 2018 - 2022</li>
                 <li>United States Students' Achievers Program, 2017</li>
             </ul>
+        </section>
+
+        <section class="contact-form" id="contact-form">
+            <h2>Contact</h2><hr>
+                <form action= "mailto:lorrainemakuyana23@gmail.com?subject=myform_submission" 
+                enctype="text/plain" method="post">
+                    <div>
+                        <label for="name">Full Name*</label><br>
+                        <input id="name" type="text" name="full-name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email Address*</label><br>
+                        <input type="email" id="email" name="email=address" required>
+                    </div>
+                    <div>
+                        <label for="your-message">Your message*</label><br>
+                        <textarea name="message" id="your-message" name="message"
+                        placeholder="e.g. Hello Lorraine, I am contacting you because..." required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+                <div id="thank-you"></div>
         </section>
 
         <section class="contact" id="contact">

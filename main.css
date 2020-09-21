@@ -8,12 +8,11 @@ header {
     height: 90px;;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: rgb(13,13,69);
-
 }
 
 header h1 {
     display: inline-block;
-    width: 65%;
+    width: 60%;
     margin: 30px;
     letter-spacing: 2px;
 }
@@ -138,7 +137,7 @@ header a:hover {
     padding-top: 20px;
 }
 
-.education, .experience, .honors {
+.education, .experience, .honors, .contact-form {
     width: 70%;
     margin: 0 auto;
 }
@@ -185,6 +184,49 @@ header a:hover {
 
 .contact a:hover {
     color: rgb(0, 106, 215);
+}
+
+.contact-form {
+    margin-top: 50px;
+}
+
+form {
+    padding: 40px 0 0 60px;
+}
+
+form input {
+    width: 300px;
+    margin-bottom: 25px;
+    height: 30px;
+    background-color: rgb(248, 246, 246);
+    border: none;
+}
+
+form textarea {
+    width: 400px;
+    height: 150px;
+    margin-bottom: 20px;
+    background-color: rgb(248, 246, 246);
+    border: none;
+}
+
+form input:hover, form input:hover, form textarea:hover {
+    border: 1px solid rgb(13,13,69);
+}
+
+form button {
+    padding: 10px 10px;
+    border: none;
+    background-color: rgb(13,13,69);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+form button:hover {
+    border: 1px solid rgb(13,13,69); 
+    text-decoration: underline;
+    background-color: white;
+    color: rgb(13,13,69);
 }
 
 footer {
@@ -312,12 +354,24 @@ footer a:hover {
         height: 400px;
     }
 
-    .education, .experience, .honors {
+    .education, .experience, .honors, .contact-form {
         width: 90%;
     }
 
     .honors ul {
         padding: 40px 0 0 40px;
+    }
+
+    form {
+        padding: 20px 25px;
+    }
+
+    form input {
+        width: 80%;
+    }
+
+    form textarea {
+        width: 100%;
     }
 }
 
@@ -393,7 +447,7 @@ footer a:hover {
         font-weight: bold;
     }
 
-    .skills h2, .projects h2, .education h2, .experience h2, .honors h2 {
+    .skills h2, .projects h2, .education h2, .experience h2, .honors h2, .contact-form h2 {
         font-size: 40px;
     }
 
@@ -439,7 +493,7 @@ footer a:hover {
         height: 600px;
     }
     
-    .education, .experience, .honors {
+    .education, .experience, .honors, .contact-form {
         width: 90%;
     }
 
@@ -496,6 +550,40 @@ footer a:hover {
 
     .projects-flex-container {
         padding-top: 60px;
+    }
+
+    form {
+        padding: 20px 25px;
+    }
+
+    form input {
+        width: 80%;
+    }
+
+    form textarea {
+        width: 100%;
+    }
+
+    form label {
+        font-size: 28px;
+    }
+
+    form textarea::placeholder {
+        font-size: 28px;
+        padding-top: 20px;
+    }
+
+    form input {
+        height: 60px;
+    }
+
+    form textarea {
+        height: 300px;
+    }
+
+    form button {
+        padding: 20px 30px;
+        font-size: 30px;
     }
 
     footer {
