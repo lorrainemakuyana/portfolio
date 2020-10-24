@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/icon.jpg" type="image/png" sizes="32x32">
+    <link rel="icon" href="images/code-logo.png" type="image/png" sizes="32x32">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="main.css">
@@ -27,7 +27,7 @@
                 <p id="about">
                 I am an <strong>Aspiring Software Engineer.</strong><br><br>
                 I am a junior at Ashesi University in Ghana, majoring in Computer Engineering but with a strong 
-                interest in Computer Science. I enjoy travelling, swimming, camping and acting.<br>
+                interest in Computer Science. I enjoy travelling, swimming, camping and acting.<br><br>
                 Connect with me on:
                 </p>
                 <p>
@@ -155,24 +155,24 @@
 
         <section class="contact-form" id="contact-form">
             <h2>Contact</h2><hr>
-                <form action= "mailto:lorrainemakuyana23@gmail.com?subject=myform_submission" 
-                enctype="text/plain" method="post">
+                <form name="myForm" id="contact">
                     <div>
                         <label for="name">Full Name*</label><br>
                         <input id="name" type="text" name="full-name" required>
                     </div>
                     <div>
                         <label for="email">Email Address*</label><br>
-                        <input type="email" id="email" name="email=address" required>
+                        <input type="email" id="email" name="email-address" required>
                     </div>
                     <div>
                         <label for="your-message">Your message*</label><br>
                         <textarea name="message" id="your-message" name="message"
                         placeholder="e.g. Hello Lorraine, I am contacting you because..." required></textarea>
                     </div>
-                    <button type="submit">Send Message</button>
+                    <button type="submit" id="submit-form">Send Message</button>
                 </form>
-                <div id="thank-you"></div>
+                <div id="thank-you">
+                </div>
         </section>
 
         <section class="contact" id="contact">

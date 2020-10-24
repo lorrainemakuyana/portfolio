@@ -222,11 +222,26 @@ form button {
     font-size: 16px;
 }
 
-form button:hover {
+form button:hover, .contact-form #thank-you #back-to-form:hover {
     border: 1px solid rgb(13,13,69); 
     text-decoration: underline;
     background-color: white;
     color: rgb(13,13,69);
+}
+
+.contact-form #thank-you {
+    display: none;
+    overflow: hidden;
+    height: inherit;
+    width: inherit;
+}
+
+.contact-form #thank-you #back-to-form {
+    padding: 8px 10px;
+    background-color: rgb(13,13,69);
+    color: rgb(255, 255, 255);
+    display: block; 
+    margin-top: 20px;
 }
 
 footer {
